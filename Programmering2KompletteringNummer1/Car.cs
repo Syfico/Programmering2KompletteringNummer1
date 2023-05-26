@@ -1,23 +1,19 @@
-// using System;
+public class Car
+{
+    private Engine engine;
 
-// namespace Programmering2KompletteringNummer1;
+    public Car()
+    {
+        engine = new Engine(); 
+    }
 
-// public class Car
-// {
-//     private Engine engine;
-
-//     public Car()
-//     {
-//         engine = new Engine(); 
-//     }
-
-//     public void StartCar()
-//     {
-//         engine.Start();
-//     }
+    public void StartCar()
+    {
+        engine.Start();
+    }
    
-//     public void StoptCar()
-//     {
-//         engine.Stop();
-//     }
-// }
+    public void StopCar()
+    {
+        engine.Stop();
+    }
+}
