@@ -1,6 +1,6 @@
-public class Decent
+public class Decent : Condition
 {
-    public void Describe()
+    public override void Describe()
     {
         Console.WriteLine("Det här fordonet är i anständigt skick.");
     }

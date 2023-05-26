@@ -1,12 +1,28 @@
 public class Bicycle
 {
-    public void Ride()
+    private Wreck wreck;
+    private Decent decent;
+    private Beauty beauty;
+
+    public Bicycle()
     {
-        Console.WriteLine("Cykeln rullar iväg!");
+        wreck = new Wreck();
+        decent = new Decent();
+        beauty = new Beauty();
     }
 
-    public void Brake()
+    public void DescribeWreck()
     {
-        Console.WriteLine("Cykeln bromsar!");
+        wreck.Describe();
+    }
+
+    public void DescribeDecent()
+    {
+        decent.Describe();
+    }
+
+    public void DescribeBeauty()
+    {
+        beauty.Describe();
     }
 }

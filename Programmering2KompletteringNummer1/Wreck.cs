@@ -1,6 +1,6 @@
-public class Wreck
+public class Wreck : Condition
 {
-    public void Describe()
+    public override void Describe()
     {
         Console.WriteLine("Det här fordonet är i dåligt skick.");
     }

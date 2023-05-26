@@ -1,6 +1,6 @@
-public class Beauty
+public class Beauty : Condition
 {
-    public void Describe()
+    public override void Describe()
     {
         Console.WriteLine("Det här fordonet är i fantastiskt skick!");
     }
